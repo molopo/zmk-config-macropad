@@ -5,7 +5,6 @@
  */
 
 #include <behaviors.dtsi>
-#include <behaviors.dtsi>
 
 / {
     keymap {
@@ -13,10 +12,10 @@
 
         layer_0 {
             bindings = <
-        &bootloader  &sys_reset  &trans  &trans  &trans
-        &trans       &trans      &trans  &trans  &trans
-        &trans       &trans      &trans  &trans  &trans
-&trans  &trans                   &trans          &trans  &trans
+        &bootloader  &sys_reset  &studio_unlock  &trans  &trans
+        &trans       &trans      &trans          &trans  &trans
+        &trans       &trans      &trans          &trans  &trans
+&trans  &trans                   &trans                  &trans  &trans
             >;
         };
     };
