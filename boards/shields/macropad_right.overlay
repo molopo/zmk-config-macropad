@@ -1,0 +1,12 @@
+#include "macropad.dtsi" 
+
+/ {
+    chosen {
+        zmk,kscan = &kscan;
+        zmk,matrix_transform = &transform;
+    };
+
+    &default_transform { // Offset of 3 because the left side has 3 columns
+    col-offset = <7>;
+    };  
+};

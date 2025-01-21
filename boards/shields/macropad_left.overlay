@@ -1,0 +1,10 @@
+#include "macropad.dtsi" 
+
+/ {
+    chosen {
+        zmk,kscan = &kscan;
+        zmk,matrix_transform = &transform;
+    };
+
+
+};
