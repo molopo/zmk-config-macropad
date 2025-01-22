@@ -10,7 +10,7 @@ manifest:
           revision: main
           import: app/west.yml
         - name: macropad-shield
-          remote: macropad-shield-module.git
+          remote: macropad-shield
           revision: main
     self:
         path: config
