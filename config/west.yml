@@ -3,14 +3,14 @@ manifest:
         - name: zmkfirmware
           url-base: https://github.com/zmkfirmware
         - name: macropad-shield
-          url-base: https://github.com/molopo/macropad-shield-module.git
+          url-base: https://github.com/molopo/
     projects:
         - name: zmk
           remote: zmkfirmware
           revision: main
           import: app/west.yml
         - name: macropad-shield
-          remote: macropad-shield
+          remote: macropad-shield-module.git
           revision: main
     self:
         path: config
