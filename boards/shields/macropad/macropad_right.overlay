@@ -2,11 +2,11 @@
 
 / {
     chosen {
-        zmk,kscan = &kscan;
-        zmk,matrix_transform = &transform;
+        zmk,kscan = &kscan0;
+        zmk,physical-layout = &physical_layout0;
     };
 
-    &default_transform { // Offset of 3 because the left side has 3 columns
+    &default_transform {
     col-offset = <7>;
     };  
 };

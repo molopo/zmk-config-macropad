@@ -1,0 +1,13 @@
+file_format: "1"
+id: macropad
+name: Macropad
+type: shield
+url: https://github.com/molopo/
+requires: [nice_nano_v2]
+
+features:
+  - keys
+  - studio
+siblings:
+  - macropad_left
+  - macropad_right

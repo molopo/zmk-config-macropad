@@ -2,8 +2,8 @@
 
 / {
     chosen {
-        zmk,kscan = &kscan;
-        zmk,matrix_transform = &transform;
+        zmk,kscan = &kscan0;
+        zmk,physical-layout = &physical_layout0;
     };
 
 
